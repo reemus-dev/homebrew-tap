@@ -2,7 +2,7 @@ class Gitnr < Formula
   desc "A CLI utility to create .gitignore files using one or more templates"
   homepage "https://github.com/reemus-dev/gitnr"
   url "https://github.com/reemus-dev/gitnr/archive/refs/tags/v0.1.37.tar.gz"
-  sha256 "689cd24f2e6af6459bed95f634ab8b50a2344a4f097e69ff1df7027bbc493cfa"
+  sha256 "0bf57f504193705412f1a513c84fe458c4336243e24a5ed8b1e609e90fc2ebb0"
   license "MIT"
 
   depends_on "rust" => :build
