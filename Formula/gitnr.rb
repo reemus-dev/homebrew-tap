@@ -12,6 +12,6 @@ class Gitnr < Formula
   end
 
   test do
-    system "false"
+    assert_match version.to_s, shell_output("#{bin}/gitnr --version")
   end
 end
