@@ -1,16 +1,16 @@
 class GhosttyDesigner < Formula
   desc "Design Ghostty's appearance, with your own Ghostty windows as the live preview"
   homepage "https://github.com/reemus-dev/ghostty-designer"
-  version "0.3.1"
+  version "0.4.0"
   license "MIT"
 
   # Homebrew's style check allows no url in on_arm and on_intel blocks.
   if Hardware::CPU.arm?
-    url "https://github.com/reemus-dev/ghostty-designer/releases/download/v0.3.1/ghostty-designer_0.3.1_darwin_arm64.tar.gz"
-    sha256 "8d0f30bf67a1df518bfe538febc59b8b22c8f92d971274de35b2b925241de3ca"
+    url "https://github.com/reemus-dev/ghostty-designer/releases/download/v0.4.0/ghostty-designer_0.4.0_darwin_arm64.tar.gz"
+    sha256 "920c63d4893714295e4d2a1380071fe43fd27e9f5cfe9628d2eb56348fe8bce4"
   else
-    url "https://github.com/reemus-dev/ghostty-designer/releases/download/v0.3.1/ghostty-designer_0.3.1_darwin_x86_64.tar.gz"
-    sha256 "49ca40973cbe81e249147227ee41db60a34947e70277b2c3cc1194f845df4550"
+    url "https://github.com/reemus-dev/ghostty-designer/releases/download/v0.4.0/ghostty-designer_0.4.0_darwin_x86_64.tar.gz"
+    sha256 "df066b96746acee4361f2b534240fceb9208c0bc7cbb2d66955d3f5ebc3e7e4c"
   end
 
   depends_on macos: :sequoia
